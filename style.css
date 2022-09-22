@@ -1,0 +1,443 @@
+.miibwnrg__section_hidden {
+  display: none;
+}
+.miibwnrg__btn {
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  font-size: smaller;
+}
+.miibwnrg__btn:hover, .miibwnrg__btn:active, .miibwnrg__btn:visited {
+  color: white;
+}
+.miibwnrg__btn-blue {
+  background-color: #01689B;
+}
+.miibwnrg__btn-green {
+  background-color: #39870C;
+}
+.miibwnrg__btn-purple {
+  background-color: #42145F;
+}
+.miibwnrg__btn-orange {
+  background-color: #E17000;
+}
+.miibwnrg__btn-turquoise {
+  background-color: #76D2B6;
+}
+.miibwnrg__intro {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 1rem;
+}
+.miibwnrg__intro-title {
+  border-top: 1px solid #e1e1e1 !important;
+  color: #01689B;
+  font-size: 2rem;
+  line-height: normal;
+  border: none;
+  padding-top: 2rem;
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__intro-title {
+    font-size: 2.5rem;
+  }
+}
+.miibwnrg__intro-detail-title {
+  border-top: 0;
+  color: #E17000;
+  margin: 0 !important;
+  padding: 1rem 0 !important;
+}
+.miibwnrg__filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__filter {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+.miibwnrg__filter-title {
+  color: #01689B;
+}
+.miibwnrg__filter-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__filter-items-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__filter-items-wrapper {
+    flex-direction: row;
+    width: fit-content;
+    gap: 0.5rem;
+  }
+}
+.miibwnrg__filter-items-wrapper a {
+  padding: 0.4rem 0.8rem;
+  width: fit-content;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__filter-items-wrapper a {
+    margin-top: 0 !important;
+    padding: 0.3rem 0.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .miibwnrg__filter-items-wrapper a {
+    margin-top: 1rem;
+  }
+}
+.miibwnrg__filter-item {
+  background-color: #E5F0F9;
+  border-color: #01689B;
+  border-radius: 0.25rem;
+  color: #01689B;
+  font-size: smaller;
+  padding: 0.3rem 0.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__filter-item {
+    width: fit-content;
+    max-width: 10em;
+  }
+}
+.miibwnrg__filter-item:first-of-type {
+  margin-bottom: 0.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__filter-item:first-of-type {
+    margin-bottom: 0;
+  }
+}
+.miibwnrg__filter-back {
+  display: none;
+  align-self: flex-start;
+  text-align: left !important;
+  text-decoration: none;
+  font-size: smaller;
+  margin-bottom: 1.5rem !important;
+  color: #01689B;
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__filter-back {
+    margin-bottom: 0 !important;
+  }
+}
+.miibwnrg__filter-back:visited, .miibwnrg__filter-back:active {
+  color: #01689B;
+}
+.miibwnrg__filter-back.active {
+  display: block;
+}
+.miibwnrg__headerblock {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__headerblock {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__headerblock {
+    flex-direction: row;
+  }
+}
+.miibwnrg__headerblock-item_alle-regelingen {
+  border-radius: 0.75rem;
+  background-color: #E5F0F9;
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+.miibwnrg__headerblock-item_alle-regelingen p {
+  text-align: center;
+  font-size: 0.8125em;
+}
+.miibwnrg__headerblock-item_alle-regelingen p:first-child {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: -0.5rem !important;
+}
+.miibwnrg__headerblock-item_alle-regelingen a {
+  text-decoration: none;
+  font-size: small;
+  color: #01689B;
+}
+.miibwnrg__headerblock-article {
+  list-style: none;
+  font-size: 0.8125em;
+  padding: 0.25rem 0 0.25rem 0 !important;
+}
+.miibwnrg__headerblock-article::before {
+  display: none !important;
+}
+.miibwnrg__headerblock-article a {
+  color: white;
+}
+.miibwnrg__headerblock-article span {
+  color: white;
+  font-weight: bold;
+}
+.miibwnrg__headerblock-circle {
+  background-color: #00A9D3;
+  color: white;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.miibwnrg__headerblock-item_nieuwste-regelingen {
+  border-radius: 0.75rem;
+  background-color: #00A9D3;
+  flex-basis: 60%;
+  flex-grow: 1;
+  color: white;
+  padding: 1.5rem;
+}
+.miibwnrg__headerblock-item_nieuwste-regelingen ul {
+  margin-bottom: 0;
+}
+.miibwnrg__headerblock-item_cijfers {
+  border-radius: 0.75rem;
+  background-color: #E5F0F9;
+  flex-basis: 20%;
+  padding: 1.5rem;
+}
+.miibwnrg__headerblock-item_cijfers ul {
+  margin-bottom: 0;
+}
+.miibwnrg__headerblock-item_cijfers li {
+  list-style: none;
+  padding-left: 0 !important;
+  font-size: small;
+}
+.miibwnrg__headerblock-item_cijfers li::before {
+  display: none !important;
+}
+.miibwnrg__headerblock-item_cijfers li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+.miibwnrg__headerblock h3 {
+  font-size: 2rem;
+}
+.miibwnrg__themeblock {
+  margin-top: 1.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__themeblock {
+    display: flex;
+  }
+}
+.miibwnrg__themeblock-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.miibwnrg__themeblock-item_huurders {
+  background-color: #E1EDDB;
+  background-image: url("./bwnrg-huren.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 90%;
+  background-size: 45%;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__themeblock-item_huurders {
+    background-position: 90% center;
+    background-size: 38%;
+  }
+}
+.miibwnrg__themeblock-item_huurders h3 {
+  color: #39870C;
+}
+.miibwnrg__themeblock-item_wijk {
+  background-color: #E3DCE7;
+  background-image: url("./bwnrg-wijk.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 60%;
+  background-size: 45%;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__themeblock-item_wijk {
+    background-position: 90% center;
+    background-size: 38%;
+  }
+}
+.miibwnrg__themeblock-item_wijk h3 {
+  color: #42145F;
+}
+.miibwnrg__themeblock-item_bedrijven {
+  background-color: #EBF8F4;
+  background-image: url("./bwnrg-kantoren.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 90%;
+  background-size: 45%;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__themeblock-item_bedrijven {
+    background-position: 90% center;
+    background-size: 38%;
+  }
+}
+.miibwnrg__themeblock-item_bedrijven h3 {
+  color: #76D2B6;
+}
+.miibwnrg__themeblock-item_per-woning {
+  background-color: #FBEAD9;
+  background-image: url("./bwnrg-stap.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 70%;
+  background-size: 45%;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__themeblock-item_per-woning {
+    background-position: 90% center;
+    background-size: 38%;
+  }
+}
+.miibwnrg__themeblock-item_per-woning h3 {
+  color: #E17000;
+}
+.miibwnrg__themeblock-item_woningeigenaren {
+  background-color: #E5F0F9;
+  background-image: url("./bwnrg-woningeigenaren.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 90%;
+  background-size: 45%;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .miibwnrg__themeblock-item_woningeigenaren {
+    background-position: 90% center;
+    background-size: 38%;
+  }
+}
+.miibwnrg__themeblock-item_woningeigenaren h3 {
+  color: #01689B;
+}
+.miibwnrg__themeblock-item p {
+  width: 50%;
+  font-size: smaller;
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__themeblock-item p {
+    width: 58%;
+  }
+}
+.miibwnrg__themeblock-item h4 {
+  font-size: small;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .miibwnrg__col:first-of-type {
+    margin-right: 1.5rem;
+  }
+}
+.miibwnrg__detail-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 !important;
+  border-bottom: 1px solid #e1e1e1;
+}
+.miibwnrg__detail-item::before {
+  display: none !important;
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__detail-title {
+    padding-right: 1rem;
+  }
+}
+.miibwnrg__detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__detail-header {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+.miibwnrg__detail-dots {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+@media only screen and (min-width: 1100px) {
+  .miibwnrg__detail-dots {
+    padding-bottom: 0;
+  }
+}
+.miibwnrg__detail-dot {
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+.miibwnrg__detail-dot_1 {
+  background-color: #00A9D3;
+}
+.miibwnrg__detail-dot_2 {
+  background-color: #39870C;
+}
+.miibwnrg__detail-dot_3 {
+  background-color: #76D2B6;
+}
+.miibwnrg__detail-dot_4 {
+  background-color: #E17000;
+}
+.miibwnrg__detail-dot_5 {
+  background-color: #42145F;
+}
+.miibwnrg__detail-website {
+  text-decoration: underline;
+  width: fit-content;
+  font-size: smaller;
+  color: black;
+}
+.miibwnrg__detail-website:visited, .miibwnrg__detail-website:active {
+  color: black;
+}
+.miibwnrg__detail p {
+  font-size: smaller;
+  margin-bottom: 0.5rem !important;
+}
+.miibwnrg__detail li:not(:last-child) {
+  margin: 0 !important;
+}
