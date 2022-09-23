@@ -1,6 +1,6 @@
 # Bouw en Energie - Infographic verduurzaming
 
-This is an interactive infographic created while working for Vorm Vijf.
+This is an interactive infographic created while working for VormVijf.
 
 
 ## Infographic website
